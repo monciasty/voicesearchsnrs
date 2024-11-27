@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozpoznawanie Mowy</title>
+    <link rel="stylesheet" href="/main/style.css">
+</head>
+<body>
+    <h1>Rozpoznawanie Mowy</h1>
+
+    <div class="controls"> 
+        <select id="language">
+            <option value="pl-PL">Polski</option>
+            <option value="en-US">Angielski</option>
+            <option value="de-DE">Niemiecki</option>
+        </select>
+
+        <button id="start-btn">Start</button>
+    </div>
+
+    <div id="output" placeholder="Tutaj pojawi się rozpoznany tekst..."></div>
+    <div id="notification" class="notification"></div>
+
+
+    <div id="newWindow">
+    <div id="apiresults" class="api-results"></div>
+    </div>
+
+    <script src="/main/script.js"></script>
+</body>
+</html>
